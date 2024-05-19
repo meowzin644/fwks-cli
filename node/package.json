@@ -1,0 +1,33 @@
+{
+  "name": "@fwks/cli",
+  "version": "1.0.0",
+  "description": "fwks cli package for projects and stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "bin": {
+    "@fwks/cli": "bin/cli",
+    "fwks-cli": "bin/cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meowzin644/fwks-cli.git"
+  },
+  "keywords": [
+    "fwks",
+    "fwks-cli",
+    "node-cli"
+  ],
+  "author": "fwks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meowzin644/fwks-cli/issues"
+  },
+  "homepage": "https://github.com/meowzin644/fwks-cli#readme",
+  "dependencies": {
+    "arg": "^5.0.2",
+    "esm": "^3.2.25",
+    "inquirer": "^9.2.20"
+  }
+}
